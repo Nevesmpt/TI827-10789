@@ -34,9 +34,9 @@ public class IntroJAVA {
 
     private static void converteComprimento() {
        float metros;
-       System.out.println("Insira um valor em metros");
-       metros = ler.nextFloat();
-       System.out.println(metros+" (m) equivale a:\n"+
+        System.out.println("Insira um valor em metros");
+        metros = ler.nextFloat();
+        System.out.println(metros+" (m) equivale a:\n"+
                +(metros*10)+" (dm)\n"+
                +(metros*100)+" (cm)\n"+
                +(metros*1000)+" (mm)\n"+
@@ -44,7 +44,15 @@ public class IntroJAVA {
     }
 
     private static void convertePesos() {
-        
+       float peso;
+        System.out.println("Insira um peso em kg");
+        peso = ler.nextFloat();
+        System.out.println(peso+" (kg) equivale a:\n"+
+               +(peso*10)+" (dg)\n"+
+               +(peso*100)+" (cg)\n"+
+               +(peso*1000)+" (g)\n"+
+               +(peso/1000)+" (Ton)");     
+    
     }
 
     private static void converteMoedas() {
